@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<title> Nova Alfort Serviços Expressos </title>
+    	<meta name="description" content="Solução em transporte com Kombi, Pickup, Sprinter e Caminhão. Atuando no mercado de entregas, fretes, carretos e seviços de distribuição e coletas ponto a ponto de mercadoreias, documentos. Nosso diferencial está na qualidade, segurança, economia e rapidez.">
+    	<meta name="keywords" content="entregas, fretes, carretos e seviços de distribuição">
+    	<meta name="robots" content="index, follow">
+    	<meta name="author" content="Luciele Rangel">
+	    <link rel="stylesheet" href="style/css-index.css">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<link rel="icon" href="img/icon.jpeg">
+	
+	
+</head>
+
+<body>
+	<header class="cabecalho">
+		<a href="index.html"><h1 class="logo">Nova Alfort Serviços Expressos</h1></a>
+		<button class="btn-menu"><i class="fa fa-bars fa-lg"></i></button>
+		<nav class="menu">
+			<a class="btn-close"><i class="fa fa-times"></i></a>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="contato.html">Contato</a></li>
+			</ul>
+			</nav>
+	</header>
+	 <!-- BANNER --> 
+        <div class="banner container">
+            <div class="title">
+                <h2> BEM VINDOS A ALFORT! </h2>
+                <h3> Transportamos e entregamos com rapidez e segurança em todo Rio de Janeiro e Grande Rio.</h3>
+            </div>
+            <div class="buttons">
+                <a href="contato.html"><button class="btn btn-orcamento bg-white radius"> Solicite seu Orçamento!</button></a>
+            </div>
+        </div>
+	
+	<!--FORMULARIO-->
+
+    <article>
+        <div class="inner">
+            <h1>Contato</h1>
+            <form action="/pagina-processa-dados-do-form" method="post">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" />
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" />
+                </div>
+                <div>
+                    <label for="msg">Mensagem:</label>
+                    <textarea id="msg"></textarea>
+                </div>
+                <div class="button">
+                    <button type="submit">Enviar sua mensagem</button>
+                </div>
+            </form>
+        </div>
+    </article>
+			   
+<!--RODAPÉ-->
+    
+  	<footer class="rodape container">
+        <table>
+    <tr>
+      <td>Contato</td>
+      <td>Localização</td>
+      <td>Forma de Pagamento</td>
+    </tr>
+    <tr>
+        <td>
+            <p><i class="fa fa-map-marker" aria-hidden="true"></i> R. Cap. Félix, 656 - Benfica Rio de Janeiro - RJ</p>
+            <p><i class="fa fa-phone" aria-hidden="true"></i> (21) 9649-3664 / 3895-9935</p>
+          <p><i class="fa fa-phone" aria-hidden="true"></i> (21)2580-7531/ 3895-9935 / 96494-3664</p>
+        <p><i class="fa fa-envelope" aria-hidden="true"></i> novaalfort@gmail.com</p></td>
+      <td><img src="img/mapa.png"></td>
+      <td><img src="img/pagamento.png"></td>
+    </tr>
+        </table>
+		<p class="copyright container">
+			
+		Copyright © - 2018. Todos os direitos reservados
+			
+		</p>
+	
+	</footer>
+	  <!-- JQUERY -->
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script> <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> <script> $(".btn-menu").click(function() { $(".menu").show(); }); $(".btn-close").click(function() { $(".menu").hide(); }); </script>    
+</body>
+</html>
+

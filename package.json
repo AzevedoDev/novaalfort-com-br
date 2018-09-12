@@ -1,0 +1,17 @@
+{
+  "name": "nova-alfort-com-br",
+  "version": "1.0.0",
+  "description": "Webapp da empresa nova alfort, empresa de transportes privados",
+  "main": "./public/server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "author": "Pedro Azevedo",
+  "license": "ISC",
+  "dependencies": {
+    "check-node-version": "^2.1.0",
+    "cluster": "^0.7.7",
+    "express": "^4.15.2",
+    "os": "^0.1.1"
+  }
+}
