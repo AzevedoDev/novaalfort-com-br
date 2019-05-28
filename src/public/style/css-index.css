@@ -101,14 +101,14 @@ button {margin-left: .5em;}
 .telefone-destaque {; margin: 0px 60px; text-align: center; font-size: larger;position: static;}
  table tr:first-child{color: #1365af;font-size: 18px;}
 table td p{font-size: 14px;padding: 5px}
-    
+
 }
 /* SMALL DEVICES - TABLETS*/
 @media screen and (min-width: 768px) {
 .logo {margin: 15px;}
 .servico {width: 49%; float: left; margin-right: 2%;}
 .servico:nth-child(2){margin-right: 0;}
-.telefone-destaque{ margin: 15px;} 
+.telefone-destaque{ margin: 15px;}
 table td p {font-size: 18px; padding: 4px;}
 
 /* MEDIUM DEVICES - TABLETS & DESKTOPS*/
@@ -123,7 +123,7 @@ table td p {font-size: 18px; padding: 4px;}
 @media screen and (min-width: 1280px) {
 .btn-menu {display: none;}
 .btn-close {display: none;}
-.menu {width: auto; height: 56px; line-height: 56px; float: left; background-color: #f5f5f5; 
+.menu {width: auto; height: 56px; line-height: 56px; float: left; background-color: #f5f5f5;
 display: block !important; position: static;}
 .menu li {padding: 0; float: left;margin-top: 15px;}
 .menu li a {color:#130400; font-size: 1.7em; padding: 15px;}
