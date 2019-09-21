@@ -1,7 +1,33 @@
-{% extends "_layouts/main.njk" %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nova Alfort Serviços Expressos</title>
+    <meta
+      name="description"
+      content="Solução em transporte com Kombi, Pickup, Sprinter e Caminhão. Atuando no mercado de entregas, fretes, carretos e seviços de distribuição e coletas ponto a ponto de mercadoreias, documentos. Nosso diferencial está na qualidade, segurança, economia e rapidez."
+    />
+    <meta
+      name="keywords"
+      content="entregas, fretes, carretos e seviços de distribuição"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Pedro Azevedo" />
+    <link rel="stylesheet" href="style/css-index.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/icon.jpeg" />
+  </head>
 
-{%block body %}
-<header class="cabecalho">
+  <body>
+    <header class="cabecalho">
       <a href="index.html"
         ><h1 class="logo">Nova Alfort Serviços Expressos</h1></a
       >
@@ -104,4 +130,39 @@
         /></a>
       </div>
     </main>
-{%endblock%}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <footer class="rodape container">
+      <table>
+        <tr>
+          <td>Contato</td>
+          <td>Localização</td>
+          <td>Forma de Pagamento</td>
+        </tr>
+        <tr>
+          <td>
+            <p>
+              <i class="fa fa-map-marker" aria-hidden="true"></i> R. Cap. Félix,
+              656 - Benfica
+            </p>
+            <p>Rio de Janeiro - RJ</p>
+            <p>
+              <i class="fa fa-phone" aria-hidden="true"></i> (21)2580-7531 /
+              (21) 3895-9935 / (21) 96479-1973
+            </p>
+            <p>
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              novaalfort@gmail.com
+            </p>
+          </td>
+          <td><img src="img/mapa.png" /></td>
+          <td><img src="img/pagamento.png" /></td>
+        </tr>
+      </table>
+
+      <p class="copyright container">
+        Copyright © - 2018. Todos os direitos reservados
+      </p>
+    </footer>
+  </body>
+</html>
